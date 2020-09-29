@@ -1,4 +1,4 @@
-package com.exmaple.stream.day01;
+package com.example.stream.day01;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -16,6 +16,7 @@ public class Test {
         personList.add(new Person("何雪", 21, "中国", 'F'));
         personList.add(new Person("李康", 22, "中国", 'M'));
 
+        personList.isEmpty();
 
         personList.stream().filter((p)->p.getAge()>18).forEach(System.out::println);
 
